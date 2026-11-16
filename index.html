@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KINA KIDS — Um mundo de diversão!</title>
+<meta name="description" content="Música, histórias, desenhos e aprendizagem para crianças.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#27304a;background:#fffaf0}
+header{padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;background:linear-gradient(110deg,#ff77a8,#ffd45a,#71d8f4)}
+.logo{font-size:2rem;font-weight:900;color:white;text-shadow:2px 3px #7656c8}nav a{display:inline-block;margin:5px;padding:10px 14px;background:#ffffffd9;border-radius:25px;text-decoration:none;color:#27304a;font-weight:bold}
+.hero{text-align:center;padding:65px 7%;background:linear-gradient(135deg,#e8dcff,#d8f7ff)}
+h1{font-size:clamp(2.4rem,7vw,4.7rem);color:#624bb9;margin:18px auto;max-width:850px}
+.hero p{font-size:1.2rem;line-height:1.6;max-width:650px;margin:0 auto 25px}
+.button{display:inline-block;padding:14px 23px;background:#ff5f9e;color:white;text-decoration:none;border-radius:28px;font-weight:bold}
+section{padding:45px 7%}.title{text-align:center;color:#624bb9;font-size:2rem}.intro{text-align:center;max-width:650px;margin:0 auto 25px;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}.card{background:white;border:2px solid #f0eaff;border-radius:22px;padding:22px;box-shadow:0 7px 20px #3331}.icon{font-size:2.5rem}.card h3{margin:8px 0}.card p{line-height:1.5}
+.parents{background:#eaf9f2}.notice{max-width:850px;margin:auto;background:white;padding:22px;border-radius:18px;line-height:1.7}
+footer{text-align:center;padding:25px;background:#51418f;color:white}
+@media(max-width:600px){header{justify-content:center}nav{text-align:center}.hero{padding:45px 6%}}
+</style></head><body>
+<header><div class="logo">KINA KIDS 🌈</div><nav><a href="#aventuras">Explorar</a><a href="#novidades">Novidades</a><a href="#pais">Para os pais</a></nav></header>
+<main><section class="hero"><div>✨ Aprende, brinca e sonha! ✨</div><h1>Bem-vindos ao mundo mágico da KINA KIDS!</h1><p>Um cantinho cheio de música, histórias, desenhos e descobertas para crescer com alegria.</p><a class="button" href="#aventuras">Vamos explorar! 🎉</a></section>
+<section id="aventuras"><h2 class="title">O que vamos descobrir hoje?</h2><p class="intro">Escolhe a tua aventura favorita. Há sempre algo divertido para descobrir!</p><div class="grid">
+<div class="card"><div class="icon">🎵</div><h3>Músicas e canções</h3><p>Canções alegres para cantar, dançar e aprender.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Histórias e contos</h3><p>Histórias encantadoras que dão asas à imaginação.</p></div>
+<div class="card"><div class="icon">🎬</div><h3>Desenhos animados</h3><p>Personagens divertidas e aventuras para acompanhar.</p></div>
+<div class="card"><div class="icon">🧠</div><h3>Aprender brincando</h3><p>Cores, números, letras e novas descobertas.</p></div>
+<div class="card"><div class="icon">🎈</div><h3>Jogos e desafios</h3><p>Ideias divertidas para brincar e usar a criatividade.</p></div>
+</div></section>
+<section id="novidades" style="background:#fff0f6"><h2 class="title">Novidades da KINA KIDS</h2><p class="intro">Esta área será atualizada com os vídeos, músicas e histórias mais recentes do canal.</p><div class="grid"><div class="card"><div class="icon">⭐</div><h3>Em breve!</h3><p>Os primeiros conteúdos estão a caminho. Volta em breve para novas aventuras.</p></div><div class="card"><div class="icon">▶️</div><h3>YouTube</h3><p>O canal oficial da KINA KIDS será apresentado aqui quando estiver disponível.</p></div></div></section>
+<section class="parents" id="pais"><h2 class="title">Um espaço pensado também para os pais</h2><div class="notice">A KINA KIDS quer oferecer entretenimento adequado à idade, com conteúdos positivos e educativos. Os vídeos, contactos e ligações oficiais serão adicionados pelo responsável do canal. Crianças devem navegar com a orientação de um adulto. Esta página inicial não recolhe dados pessoais.</div></section></main>
+<footer><strong>KINA KIDS 🌈</strong><p>Diversão, imaginação e aprendizagem para todos!</p>© <span id="year"></span> KINA KIDS</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
